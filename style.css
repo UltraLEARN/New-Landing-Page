@@ -1,0 +1,118 @@
+.nav-link{
+    color: #281A4F;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+body{
+    color: #281A4F;
+    font-family: Montserrat;
+}
+.head{
+    font-size: 32px;
+    font-weight: 400;
+}
+.btn-lg{
+    border-radius: 50px;
+    font-size: 24px;
+    font-weight: 600;
+    background-color: #281A4F;
+    color: white;
+    width: 204px;
+}
+.exploretext{
+    color: black;
+    font-size:64px ;
+    font-weight: 800;
+    line-height: 78px;
+}
+.toptext{
+    padding-top: 95px;
+    padding-bottom: 50px;
+}
+.ULTRALEARN{
+    font-size: 24px;
+    font-weight: 400;
+    color: #281A4F;
+}
+.row{
+    padding-left: 96px;
+}
+.join{
+    font-size: 24px;
+    font-weight: 700;
+    color: #5F0F40;
+    font-style: bold;
+    padding-bottom: 1.5vw;
+}
+.btn{
+    background-color: #5F0F40;
+    color: white;
+    font-size: 21px;
+    border-radius: 20px;
+}
+.input-group{
+    border-radius: 20px;
+}
+.form-control-xxl{
+    border: 1px solid #5F0F40;
+    font-size: 20px;
+    width: 487px;
+    height: 47px;
+    padding: 2vw;
+    border-radius: 20px;
+}
+.img{
+    float: right;
+}
+@media (min-width:0px) and (max-width:840px){ 
+    .nav-link{
+        font-size: 2.7vw;
+        font-weight: 700;
+    }
+    .btn-lg{
+        font-size: 2.3vw;
+        float: right;
+        width: 28vw;
+    }
+    .head{
+        font-size: 4.5vw;
+        font-weight: 800;
+    }
+    .exploretext{
+        font-size: 8.6vw;
+        line-height: 12vw;
+        font-weight: 900;
+
+    }
+    .toptext{
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+    .row{
+        padding: 4vw;
+    }
+    .image{
+        width: 14.1vh;
+        height: 45vh;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        align-content: center;
+    }
+    .form-control-xxl{
+        width: 35vw;
+        height: auto;
+        font-size: 3.5vw;
+    }
+    .input-group{
+        border-radius: 6vw;
+    }
+    .btn{
+        font-size: 3.5vw;
+    }
+}
